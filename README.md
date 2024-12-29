@@ -7,7 +7,7 @@ Comment ouvrir et visualiser le site en local ?
 git clone https://github.com/RobiSilv/TPCV.git
 
 
-2. Ouvrez le fichier `index.html` dans votre navigateur.
+2. Ouvrez le fichier `accueil.html` dans votre navigateur.
 
 
 Vous pouvez visualiser la version en ligne de mon site à l'adresse suivante : https://robisilv.github.io/TPCV/
