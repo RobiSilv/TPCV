@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "LondrinaSolid";
+  src: local("LondrinaSolid-Regular.ttf"), url("/LondrinaSolid-Regular.ttf"),
+    format("ttf");
+}
+
+header {
+  background: #bc6a6a;
+  color: #ffffff;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+body {
+  font-family: "LondrinaSolid";
+  margin: 0;
+  padding: 0;
+  background: url("/fond.png");
+  background-position: center;
+  background-size: 50em;
+}
+
+nav {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+nav a:hover {
+  color: #ffffff5e;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.8em;
+  cursor: pointer;
+  font-family: "LondrinaSolid";
+}
+
+.desc {
+  font-size: 2.5em;
+  justify-items: center;
+  margin-bottom: 2em;
+}
+
+#competenceForm {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+#niveauCompetence {
+  font-family: "LondrinaSolid";
+  font-size: 0.8em;
+}
+
+#descriptionCompetence {
+  width: 30em;
+  resize: none;
+}
+
+.competence {
+  border: 3px solid #777676;
+  padding: 10px;
+  margin-top: 2em;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin-left: 2em;
+  margin-right: 40em;
+  height: 8em;
+}
+
+.competence h3 {
+  margin-top: 0;
+  color: #000000;
+  font-size: 2em;
+}
+
+.retour {
+  margin-left: 1em;
+  margin-top: 2em;
+  font-size: 2em;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.back-arrow img {
+  width: 70px;
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

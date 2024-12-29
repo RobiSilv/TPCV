@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "LondrinaSolid";
+  src: local("LondrinaSolid-Regular.ttf"), url("/LondrinaSolid-Regular.ttf"),
+    format("ttf");
+}
+
+header {
+  background: #bc6a6a;
+  color: #ffffff;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+body {
+  font-family: "LondrinaSolid";
+  margin: 0;
+  padding: 0;
+  background: url("/fond.png");
+  background-position: center;
+  background-size: 50em;
+  line-height: 1.6;
+}
+
+nav {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+nav a:hover {
+  color: #ffffff5e;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: rgba(23, 80, 173, 0.39);
+  border-radius: 230px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: rotate(45deg);
+}
+
+.wrap {
+  transform: rotate(-45deg);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 2em;
+  width: 20em;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  margin-right: 6px;
+  margin-left: 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+button {
+  justify-self: center;
+  display: block;
+  width: 30%;
+  padding: 0.75rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: "LondrinaSolid";
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#email, #nom {
+  text-indent: 30px;
+  padding: 0.5em 0em 0.5em 0.5em;
+}
+
+#sujet {
+  padding: 0.5em 0em 0.5em 0.5em;
+}
+
+#nom {
+  background-image: url("/CV/Contacts/user-font-awesome-nuevo-usuario-icono-11563566658mjtfvilgcs.png");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  text-indent: 30px;
+  background-position: 0 center;
+  background-position-x: 3px;
+}
+
+#email {
+  background-image: url("/CV/Contacts/Email-Icon-Transparent-Background.png");
+  background-repeat: no-repeat;
+  background-size: 28px;
+  text-indent: 30px;
+  background-position: 0 center;
+  background-position-x: 3px;
+}
+
+.retour {
+  margin-left: 1em;
+  margin-bottom: 0;
+  font-size: 2em;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.back-arrow img {
+  width: 70px;
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
