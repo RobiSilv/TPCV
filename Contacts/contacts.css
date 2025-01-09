@@ -119,7 +119,7 @@ button:hover {
 }
 
 #nom {
-  background-image: url("/CV/Contacts/user-font-awesome-nuevo-usuario-icono-11563566658mjtfvilgcs.png");
+  background-image: url("/Contacts/iconnom.png");
   background-repeat: no-repeat;
   background-size: 22px;
   text-indent: 30px;
@@ -128,7 +128,7 @@ button:hover {
 }
 
 #email {
-  background-image: url("/CV/Contacts/Email-Icon-Transparent-Background.png");
+  background-image: url("Contacts/iconmail.png");
   background-repeat: no-repeat;
   background-size: 28px;
   text-indent: 30px;
