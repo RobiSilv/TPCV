@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "LondrinaSolid";
+  src: local("LondrinaSolid-Regular.ttf"), url("/LondrinaSolid-Regular.ttf"),
+    format("ttf");
+}
+
+header {
+  background: #bc6a6a;
+  color: #ffffff;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+body {
+  font-family: "LondrinaSolid";
+  margin: 0;
+  padding: 0;
+  background: url("/fond.png");
+  background-position: center;
+  background-size: 50em;
+}
+
+nav {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+nav a:hover {
+  color: #ffffff5e;
+}
+
+.titre {
+  margin-left: 1em;
+  font-size: 2em;
+}
+
+section {
+  padding: 20px;
+}
+
+.proj {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+.proj h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+figcaption {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.cosmik {
+  display: flex;
+  align-items: center;
+  gap: 10em;
+  justify-content: center;
+}
+
+.logo img {
+  width: 400px;
+  height: auto;
+}
+
+.charte img {
+  width: 400px;
+  height: auto;
+  border: rgb(68, 141, 196) solid 0.4em;
+  border-radius: 1em;
+}
+
+.affiche img {
+  width: 350px;
+  height: auto;
+}
+
+.carte img {
+  width: 400px;
+  height: auto;
+}
+
+.fauxsite img {
+  width: 400px;
+  height: auto;
+  border: rgb(68, 141, 196) solid 0.4em;
+  border-radius: 1em;
+}
+
+.wordpress {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+}
+
+.wordpress img {
+  border: black solid;
+  width: 515px;
+  height: auto;
+}
+
+.ux1 {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+}
+
+.ux1 img {
+  width: 515px;
+  height: auto;
+}
+
+.ux2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+
+.ux2 img {
+  width: 540px;
+  height: auto;
+}
+
+.wireframe img {
+  border: rgb(68, 141, 196) solid 0.4em;
+}
+
+.retour {
+  margin-left: 1em;
+  font-size: 2em;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.back-arrow img {
+  width: 70px;
+  height: 70px;
+}

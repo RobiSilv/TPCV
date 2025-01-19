@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "LondrinaSolid";
+  src: local("LondrinaSolid-Regular.ttf"), url("/LondrinaSolid-Regular.ttf"),
+    format("ttf");
+}
+
+body {
+  font-family: "LondrinaSolid";
+  margin: 0;
+  padding: 0;
+  background: url("/fond.png");
+  background-position: center;
+  background-size: 50em;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  font-size: 3.5em;
+
+}
+
+.retour {
+  font-size: 2em;
+  font-style: italic;
+}
+
+.back-arrow img {
+  width: 70px;
+  height: 70px;
+  align-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }

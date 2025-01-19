@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compétences</title>
+    <link rel="stylesheet" href="compétences.css" />
+  </head>
+  <body>
+    <header>
+        <nav>
+          <a href="/index.html">Accueil</a>
+          <a href="/CV/CV.html">Mon CV</a>
+          <a href="/Portfolio/portfolio.html">Mon Portfolio</a>
+          <a href="/Compétences/compétences.html">Gestion des Compétences</a>
+          <a href="/Contacts/contacts.html">Me contacter</a>
+        </nav>
+    </header>
+
+    <section>
+      <div class="desc">
+        <p>Ici, vous pouvez gérer vos compétences sous la forme d'une liste.</p>
+      </div>
+      <form id="competenceForm">
+        <label for="nomCompetence">Nom de la compétence :</label>
+        <input type="text" id="nomCompetence" required />
+
+        <label for="descriptionCompetence">Description (facultative) :</label>
+        <textarea id="descriptionCompetence"></textarea>
+
+        <label for="niveauCompetence">Niveau :</label>
+        <select id="niveauCompetence">
+          <option value="Débutant">Débutant</option>
+          <option value="Intermédiaire">Intermédiaire</option>
+          <option value="Avancé">Avancé</option>
+        </select>
+
+        <button type="submit">Ajouter la compétence</button>
+      </form>
+    </section>
+
+    <div id="listeCompetences"></div>
+
+    <section class="retour">
+      <a href="/index.html"
+        >Retour à l'accueil
+        <div class="back-arrow"><img src="/backarrow.png" /></div>
+      </a>
+    </section>
+
+    <script src="/Compétences/compétences.js"></script>
+  </body>
+</html>

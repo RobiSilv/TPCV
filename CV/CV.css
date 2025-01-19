@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "LondrinaSolid";
+  src: local("LondrinaSolid-Regular.ttf"), url("/LondrinaSolid-Regular.ttf"),
+    format("ttf");
+}
+
+header {
+  background: #bc6a6a;
+  color: #ffffff;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+body {
+  font-family: "LondrinaSolid";
+  margin: 0;
+  padding: 0;
+  background: url("/fond.png");
+  background-position: center;
+  background-size: 50em;
+  line-height: 1.6;
+}
+
+nav {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+nav a:hover {
+  color: #ffffff5e;
+}
+
+#moi {
+  font-size: 80px;
+  color: #000;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 gray;
+}
+
+.moi img {
+  margin-right: 10px;
+  width: 360px;
+  height: 360px;
+  margin-left: 20px;
+}
+
+.intro {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+.categorie {
+  width: 1300px;
+  margin: auto;
+}
+
+hr {
+  height: 3px;
+  background-color: #000;
+  border: none;
+  width: 1000px;
+  margin: 70px auto;
+}
+
+ul {
+  margin-top: 15px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1:nth-last-of-type(1) {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+ul + h2 {
+  margin-top: 30px;
+}
+
+hr + div > h1 {
+  margin-top: -12px;
+}
+
+#etude {
+  background: url("etudes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#exps {
+  background: url("exps.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.comp {
+  text-align: center;
+  font-size: 2em;
+  width: 1300px;
+  margin: auto;
+  background: url("comp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1300px;
+  height: 300px;
+  margin-bottom: 50px;
+  align-items: center;
+  line-height: 70px;
+}
+
+#loisirs {
+  height: 300px;
+
+  background: url("loisirs.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: 1.5em;
+}
+
+.textloisirs {
+  width: 1000px;
+  height: 300px;
+  justify-self: center;
+}
+
+#contact {
+  background: url("contacs.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1300px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.centre {
+  text-align: center;
+}
+
+#info {
+  line-height: 80px;
+  font-size: 2em;
+}
+
+.solidworks img {
+  width: 50px;
+  height: 50px;
+}
+
+.retour {
+  margin-left: 1em;
+  font-size: 2em;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.back-arrow img {
+  width: 70px;
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
