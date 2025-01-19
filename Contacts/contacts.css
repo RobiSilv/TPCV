@@ -128,7 +128,11 @@ button:hover {
 }
 
 #email {
+<<<<<<< HEAD
   background-image: url("/Contacts/iconmail.png");
+=======
+  background-image: url("Contacts/iconmail.png");
+>>>>>>> 94f791747f51ea2d165df44e81eed34f0bc6994e
   background-repeat: no-repeat;
   background-size: 28px;
   text-indent: 30px;
