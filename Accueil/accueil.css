@@ -1,6 +1,6 @@
 @font-face {
   font-family: "LondrinaSolid";
-  src: local("LondrinaSolid-Regular.ttf"), url("Portfolio/LondrinaSolid-Regular.ttf"),
+  src: local("LondrinaSolid-Regular.ttf"), url("LondrinaSolid-Regular.ttf"),
     format("ttf");
 }
 header {
