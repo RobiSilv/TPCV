@@ -1,6 +1,6 @@
 @font-face {
   font-family: "LondrinaSolid";
-  src: local("LondrinaSolid-Regular.ttf"), url("/LondrinaSolid-Regular.ttf"),
+  src: local("LondrinaSolid-Regular.ttf"), url("LondrinaSolid-Regular.ttf"),
     format("ttf");
 }
 header {
@@ -39,7 +39,7 @@ body {
 }
 
 section {
-  background: url("/fond.png");
+  background: url("fond.png");
   background-position: center;
   background-position: center;
   background-size: 50em;

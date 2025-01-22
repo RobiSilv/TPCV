@@ -1,6 +1,6 @@
 @font-face {
   font-family: "LondrinaSolid";
-  src: local("LondrinaSolid-Regular.ttf"), url("/LondrinaSolid-Regular.ttf"),
+  src: local("LondrinaSolid-Regular.ttf"), url("LondrinaSolid-Regular.ttf"),
     format("ttf");
 }
 
@@ -20,7 +20,7 @@ body {
   font-family: "LondrinaSolid";
   margin: 0;
   padding: 0;
-  background: url("/fond.png");
+  background: url("fond.png");
   background-position: center;
   background-size: 50em;
   line-height: 1.6;
@@ -119,7 +119,7 @@ button:hover {
 }
 
 #nom {
-  background-image: url("/Contacts/iconnom.png");
+  background-image: url("./Contacts/iconnom.png");
   background-repeat: no-repeat;
   background-size: 22px;
   text-indent: 30px;
@@ -128,7 +128,7 @@ button:hover {
 }
 
 #email {
-  background-image: url("/Contacts/iconmail.png");
+  background-image: url("./Contacts/iconmail.png");
   background-repeat: no-repeat;
   background-size: 28px;
   text-indent: 30px;
