@@ -39,7 +39,7 @@ body {
 }
 
 section {
-  background: url("Portfolio/fond.png");
+  background: url("/Portfolio/fond.png");
   background-position: center;
   background-position: center;
   background-size: 50em;
