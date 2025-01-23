@@ -85,9 +85,10 @@ img {
 
 .fich {
   display: flex;
-  align-content: right;
+  justify-self: right;
   width: 30px;
   height: auto;
+  margin-right: 0.5em;
 }
 
 a:hover {
