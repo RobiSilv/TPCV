@@ -83,6 +83,13 @@ img {
   margin-left: 1em;
 }
 
+.fich {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+}
+
 a:hover {
   opacity: 0.8;
 }
