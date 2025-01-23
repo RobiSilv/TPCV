@@ -153,6 +153,8 @@ figcaption {
 .ancienport img {
   border: rgb(68, 141, 196) solid 0.4em;
   border-radius: 1em;
+  width: 540px;
+  height: auto;
 }
 
 .retour {
