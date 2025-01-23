@@ -1,7 +1,7 @@
 @font-face {
   font-family: "LondrinaSolid";
-  src: local("LondrinaSolid-Regular.ttf"), url("/Portfolio/LondrinaSolid-Regular.ttf"),
-    format("ttf");
+  src: local("LondrinaSolid-Regular.ttf"),
+    url("/Portfolio/LondrinaSolid-Regular.ttf"), format("ttf");
 }
 
 header {
@@ -146,6 +146,11 @@ figcaption {
 }
 
 .wireframe img {
+  border: rgb(68, 141, 196) solid 0.4em;
+  border-radius: 1em;
+}
+
+.ancienport img {
   border: rgb(68, 141, 196) solid 0.4em;
   border-radius: 1em;
 }
