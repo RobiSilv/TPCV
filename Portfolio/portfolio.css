@@ -155,7 +155,7 @@ figcaption {
   border-radius: 1em;
   width: 240px;
   height: auto;
-  align-items: center;
+  justify-self: center;
 }
 
 .retour {
