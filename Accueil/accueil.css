@@ -85,7 +85,7 @@ img {
 
 .fich {
   display: flex;
-  align-items: right;
+  align-content: right;
   width: 30px;
   height: auto;
 }
