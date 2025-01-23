@@ -86,7 +86,7 @@ img {
 .fich {
   display: flex;
   flex-direction: row;
-  width: 70px;
+  width: 30px;
   height: auto;
 }
 
