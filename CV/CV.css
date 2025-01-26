@@ -182,11 +182,15 @@ hr + div > h1 {
   column-gap: 20px;
 }
 
+.pdf {
+  display: flex;
+  justify-content: right;
+  padding-top: 2em;
+}
+
 .pdf img {
   height: auto;
   width: 170px;
-  align-items: right;
-
 }
 
 .retour {
