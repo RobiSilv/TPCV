@@ -185,6 +185,8 @@ hr + div > h1 {
 .pdf img {
   height: auto;
   width: 170px;
+  align-items: right;
+
 }
 
 .retour {
