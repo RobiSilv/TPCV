@@ -6,8 +6,8 @@
 
 @font-face {
   font-family: "LondrinaSolid";
-  src: local("LondrinaSolid-Regular.ttf"), url("/Portfolio/LondrinaSolid-Regular.ttf"),
-    format("ttf");
+  src: local("LondrinaSolid-Regular.ttf"),
+    url("/Portfolio/LondrinaSolid-Regular.ttf"), format("ttf");
 }
 
 header {
@@ -175,11 +175,22 @@ hr + div > h1 {
   height: 50px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.pdf img {
+  height: auto;
+  width: 170px;
+}
+
 .retour {
   margin-left: 1em;
   font-size: 2em;
   font-style: italic;
-  display: flex;
   align-items: center;
 }
 
