@@ -150,12 +150,15 @@ figcaption {
   border-radius: 1em;
 }
 
+.ancienport {
+  justify-self: center;
+}
+
 .ancienport img {
   border: rgb(68, 141, 196) solid 0.4em;
   border-radius: 1em;
   width: 240px;
   height: auto;
-  justify-self: center;
 }
 
 .retour {
