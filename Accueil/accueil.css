@@ -83,14 +83,6 @@ img {
   margin-left: 1em;
 }
 
-.fich {
-  display: flex;
-  justify-self: right;
-  width: 30px;
-  height: auto;
-  margin-right: 0.5em;
-}
-
 a:hover {
   opacity: 0.8;
 }
